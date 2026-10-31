@@ -1,0 +1,14 @@
+{
+  "name": "catalogo-livros-typescript",
+  "version": "1.0.0",
+  "description": "Catálogo interativo de livros feito com HTML, CSS e TypeScript",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "npx http-server . -p 8080 -c-1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  },
+  "license": "MIT"
+}
