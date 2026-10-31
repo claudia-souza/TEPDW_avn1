@@ -27,17 +27,38 @@ Ana Beatriz Moreira
 
 ## Como executar
 
-git clone :
-https://github.com/claudia-souza/TEPDW_avn1
+### Pré-requisitos
 
-cd catalogo-livros
+- [Node.js](https://nodejs.org/) (versão 18 ou superior) com npm instalado.
 
-**Instale as dependências** (instala o TypeScript):
-npm install
-npm run build
-npm start
+### Passo a passo
 
-**Abra no navegador**: <http://localhost:8080>
+1. **Clone o repositório** e entre na pasta:
+
+   ```bash
+   git clone https://github.com/claudia-souza/TEPDW_avn1.git
+   cd TEPDW_avn1
+   ```
+
+2. **Instale as dependências** (instala o TypeScript):
+
+   ```bash
+   npm install
+   ```
+
+3. **Compile o TypeScript** para JavaScript:
+
+   ```bash
+   npm run build
+   ```
+
+4. **Inicie o servidor local**:
+
+   ```bash
+   npm start
+   ```
+
+5. **Abra no navegador**: <http://localhost:8080>
 
 ## Uso de TypeScript
 
