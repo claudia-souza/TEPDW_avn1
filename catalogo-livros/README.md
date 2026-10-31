@@ -29,12 +29,13 @@ Ana Beatriz Moreira
 
 git clone :
 https://github.com/claudia-souza/TEPDW_avn1
+
 cd catalogo-livros
 
-2. **Instale as dependências** (instala o TypeScript):
-   npm install
-   npm run build
-   npm start
+**Instale as dependências** (instala o TypeScript):
+npm install
+npm run build
+npm start
 
 **Abra no navegador**: <http://localhost:8080>
 
